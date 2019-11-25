@@ -1,0 +1,1 @@
+web: java -jar target/soap-ws-example-0.0.1-SNAPSHOT
