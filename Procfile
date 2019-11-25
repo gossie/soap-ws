@@ -1,1 +1,1 @@
-web: java -jar target/soap-ws-example-0.0.1-SNAPSHOT.jar
+web: java -jar server/target/soap-ws-server-0.0.1-SNAPSHOT.jar
