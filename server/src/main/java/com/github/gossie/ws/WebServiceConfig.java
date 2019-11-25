@@ -24,18 +24,18 @@ public class WebServiceConfig extends WsConfigurerAdapter {
         return new ServletRegistrationBean(servlet, "/ws/*");
     }
 
-    @Bean(name = "countries")
-    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema countriesSchema) {
+    @Bean(name = "meals")
+    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema mealsSchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
-        wsdl11Definition.setPortTypeName("CountriesPort");
+        wsdl11Definition.setPortTypeName("MealsPort");
         wsdl11Definition.setLocationUri("/ws");
         wsdl11Definition.setTargetNamespace("http://github.com/gossie/soap-ws-example");
-        wsdl11Definition.setSchema(countriesSchema);
+        wsdl11Definition.setSchema(mealsSchema);
         return wsdl11Definition;
     }
 
     @Bean
-    public XsdSchema countriesSchema() {
+    public XsdSchema mealsSchema() {
         return new SimpleXsdSchema(new ClassPathResource("ws/meals.xsd"));
     }
     
