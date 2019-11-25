@@ -3,7 +3,7 @@
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getMealsRequest>
-         <gs:tag>vegetarisch</gs:tag>
+         <gs:tag>vegan</gs:tag>
       </gs:getMealsRequest>
    </soapenv:Body>
 </soapenv:Envelope>
