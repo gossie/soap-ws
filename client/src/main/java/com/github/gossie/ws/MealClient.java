@@ -20,9 +20,8 @@ public class MealClient extends WebServiceGatewaySupport {
         log.info("Requesting meals for " + tag);
 
         GetMealsResponse response = (GetMealsResponse) getWebServiceTemplate()
-                .marshalSendAndReceive("http://localhost:8080/ws/meals", request,
-                        new SoapActionCallback(
-                                "http://github.com/gossie/soap-ws-example/GetCountryRequest"));
+                .marshalSendAndReceive("https://ldwas-soap-example.herokuapp.com/ws/meals", request,
+                        new SoapActionCallback("http://github.com/gossie/soap-ws-example/GetCountryRequest"));
 
         return response;
     }

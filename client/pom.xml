@@ -86,7 +86,7 @@
 					<generatePackage>com.github.gossie.ws.wsdl</generatePackage>
 					<schemas>
 						<schema>
-							<url>https://ldwas-soap-example.herokuapp.com/ws/countries.wsdl</url>
+							<url>https://ldwas-soap-example.herokuapp.com/ws/meals.wsdl</url>
 						</schema>
 					</schemas>
 				</configuration>

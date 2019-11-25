@@ -19,7 +19,7 @@ public class ClientConfiguration {
     @Bean
     public MealClient countryClient(Jaxb2Marshaller marshaller) {
         MealClient client = new MealClient();
-        client.setDefaultUri("http://localhost:8080/ws");
+        client.setDefaultUri("https://ldwas-soap-example.herokuapp.com//ws");
         client.setMarshaller(marshaller);
         client.setUnmarshaller(marshaller);
         return client;
