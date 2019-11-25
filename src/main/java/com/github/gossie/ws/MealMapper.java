@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.github.gossie.ws;
 
 import com.github.gossie.soap_ws_example.Meal;
 import org.springframework.stereotype.Component;

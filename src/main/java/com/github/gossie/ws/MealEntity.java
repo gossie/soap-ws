@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.github.gossie.ws;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

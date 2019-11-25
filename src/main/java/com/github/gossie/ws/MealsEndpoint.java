@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.github.gossie.ws;
 
 import com.github.gossie.soap_ws_example.GetMealsRequest;
 import com.github.gossie.soap_ws_example.GetMealsResponse;
@@ -7,8 +7,6 @@ import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
-
-import java.util.Set;
 
 @RequiredArgsConstructor
 @Endpoint
