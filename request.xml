@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://github.com/gossie/soap-ws-example">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getMealsRequest>
+         <gs:tag>vegetarisch</gs:tag>
+      </gs:getMealsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
